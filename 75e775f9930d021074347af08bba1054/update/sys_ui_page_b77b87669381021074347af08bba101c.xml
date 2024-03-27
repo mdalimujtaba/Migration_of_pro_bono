@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1263211_pro_bono_Timekeeper Register.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<div id="listview_timekeeper">
+		<iframe src="x_1263211_pro_bono_timekeeper_register_list.do?sysparm_view=add_view" style="width:100%; height:500px">
+		
+		</iframe>
+	</div>
+	
+</j:jelly>]]></html>
+        <name>Timekeeper Register</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-23 06:46:58</sys_created_on>
+        <sys_id>b77b87669381021074347af08bba101c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Timekeeper Register</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_ui_page_b77b87669381021074347af08bba101c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 04:51:23</sys_updated_on>
+    </sys_ui_page>
+</record_update>

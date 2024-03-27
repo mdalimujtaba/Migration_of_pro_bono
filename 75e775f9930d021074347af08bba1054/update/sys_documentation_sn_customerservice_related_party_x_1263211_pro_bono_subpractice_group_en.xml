@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_1263211_pro_bono_subpractice_group" label="Subpractice Group" language="en" table="sn_customerservice_related_party">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_1263211_pro_bono_subpractice_group</element>
+            <help/>
+            <hint/>
+            <label>Subpractice Group</label>
+            <language>en</language>
+            <name>sn_customerservice_related_party</name>
+            <plural>Subpractice Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-26 09:56:20</sys_created_on>
+            <sys_id>513493af9345021074347af08bba10e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Subpractice Group</sys_name>
+            <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+            <sys_update_name>sys_documentation_sn_customerservice_related_party_x_1263211_pro_bono_subpractice_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-26 09:56:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
