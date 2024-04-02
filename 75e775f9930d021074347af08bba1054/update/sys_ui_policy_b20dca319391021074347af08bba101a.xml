@@ -15,30 +15,32 @@
         <script_false><![CDATA[function onCondition() {
 	if(!g_user.hasRole('x_1263211_pro_bono.probono_admin')){
 	g_form.setMandatory('status',false);
+	g_form.setMandatory('reason_for_staffing_request',false);
 }
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
 if(g_user.hasRole('x_1263211_pro_bono.probono_admin')){
 	g_form.setMandatory('status',true);
+	g_form.setMandatory('reason_for_staffing_request',true);
 }
 }]]></script_true>
         <set_values/>
-        <short_description>Make status field mandatory when pro bono admin is logged in.</short_description>
+        <short_description>Make status and reason for staffing request field mandatory when pro bono admin is logged in.</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-02 04:34:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b20dca319391021074347af08bba101a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Make status field mandatory when pro bono admin is logged in.</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Make status and reason for staffing request field mandatory when pro bono admin is logged in.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
         <sys_update_name>sys_ui_policy_b20dca319391021074347af08bba101a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 05:10:22</sys_updated_on>
+        <sys_updated_on>2024-04-02 05:19:25</sys_updated_on>
         <table>x_1263211_pro_bono_opportunity</table>
         <ui_type>10</ui_type>
         <view/>
