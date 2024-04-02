@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1263211_pro_bono.AutoPopulateOpportunityField</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AutoPopulateOpportunityField</name>
+        <script><![CDATA[var AutoPopulateOpportunityField = Class.create();
+AutoPopulateOpportunityField.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	populateField:function(){
+		var sysId=this.getParameter('sysID');
+		var gr=new GlideRecord('x_1263211_pro_bono_opportunity');
+		gr.addQuery('sys_id',sysId);
+		gr.query();
+		if(gr.next()){
+			var obj={};
+			obj.client_name=gr.getDisplayValue('client_name');
+			obj.matter_name=gr.getDisplayValue('matter_name');
+			obj.representation_type=gr.getValue('representation_type');
+			obj.client_type=gr.getValue('client_type');
+			obj.matter_type=gr.getValue('matter_type');
+			obj.referral_source=gr.getValue('referral_source');
+			obj.matter_description=gr.getDisplayValue('matter_description');
+			obj.matter_office=gr.getDisplayValue('matter_office');
+			obj.deadline=gr.getDisplayValue('deadline');
+			obj.keni_request_submission_date=gr.getDisplayValue('keni_request_submission_date');
+			obj.opportunity_created=gr.getDisplayValue('opportunity_created');
+			obj.language_requirement=gr.getValue('language_requirement');
+			return JSON.stringify(obj);
+		}
+
+	},
+    type: 'AutoPopulateOpportunityField'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:26:56</sys_created_on>
+        <sys_id>cdce83719395021074347af08bba101f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>AutoPopulateOpportunityField</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_script_include_cdce83719395021074347af08bba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:44:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

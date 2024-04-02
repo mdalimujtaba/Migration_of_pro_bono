@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>We have to populate users detail when we select any existing opportunity.</description>
+        <field>existing_client_matter</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AutoPopulateField</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ga=new GlideAjax('AutoPopulateOpportunityField');
+	ga.addParam('sysparm_name','populateField');
+	ga.addParam('sysID',newValue);
+	ga.getXML(callback);
+	function callback(response){
+		var answer=response.responseXML.documentElement.getAttribute('answer');
+		alert(answer);
+		
+		var obj=JSON.parse(answer);
+		alert(typeof(obj));
+		g_form.setValue('client_name',obj.client_name);
+		g_form.setValue('matter_name',obj.matter_name);
+		g_form.setValue('client_type',obj.client_type);
+		g_form.setValue('matter_type',obj.matter_type);
+		g_form.setValue('representation_type',obj.representation_type);
+		g_form.setValue('referral_source',obj.referral_source);
+		g_form.setValue('matter_description',obj.matter_description);
+		g_form.setValue('matter_office',obj.matter_office);
+		g_form.setValue('deadline',obj.deadline);
+		g_form.setValue('keni_request_submission_date',obj.keni_request_submission_date);
+		g_form.setValue('opportunity_created',obj.opportunity_created);
+		g_form.setValue('language_requirement',obj.language_requirement);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:54:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c1f8fb19395021074347af08bba101e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AutoPopulateField</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_script_client_0c1f8fb19395021074347af08bba101e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:32:03</sys_updated_on>
+        <table>x_1263211_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
