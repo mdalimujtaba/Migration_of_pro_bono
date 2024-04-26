@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reason_for_staffing_request</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 04:10:17</sys_created_on>
+        <sys_id>a18ed51e9301021074347af08bba10ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>reason_for_staffing_request</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a18ed51e9301021074347af08bba10ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 06:58:24</sys_updated_on>
+        <table>x_1263211_pro_bono_opportunity</table>
+        <ui_policy display_value="Make following field mandatory.">86e85d969301021074347af08bba10a7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_ui_policy_action_a18ed51e9301021074347af08bba10ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>reason_for_staffing_request</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 04:10:17</sys_created_on><sys_id>a18ed51e9301021074347af08bba10ae</sys_id><sys_mod_count>1</sys_mod_count><sys_name>reason_for_staffing_request</sys_name><sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package><sys_policy/><sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope><sys_update_name>sys_ui_policy_action_a18ed51e9301021074347af08bba10ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-02 06:58:24</sys_updated_on><table>x_1263211_pro_bono_opportunity</table><ui_policy display_value="Make following field mandatory.">86e85d969301021074347af08bba10a7</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1694728171</payload_hash>
+        <record_name>reason_for_staffing_request</record_name>
+        <reverted_from/>
+        <source>e9b85e3d9391021074347af08bba103a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 06:58:24</sys_created_on>
+        <sys_id>3a9e6a719315021074347af08bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9d9a138a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 06:58:24</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fe9e6a716b15021079c88823cd1a5933</update_guid>
+        <update_guid_history>fe9e6a716b15021079c88823cd1a5933:-1694728171,7caedd1a61010210d85b110231f756e5:-905458550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-11 13:23:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4dedc707e027409b9f219a06f70386e9</sys_id>
+        <sys_metadata>a18ed51e9301021074347af08bba10ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_for_staffing_request</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="Make following field mandatory.">86e85d969301021074347af08bba10a7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a18ed51e9301021074347af08bba10ae</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a18ed51e9301021074347af08bba10ae">3a9e6a719315021074347af08bba1034</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-11 13:23:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

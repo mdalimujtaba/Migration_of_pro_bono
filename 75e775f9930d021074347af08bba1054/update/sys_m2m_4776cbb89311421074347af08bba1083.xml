@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1263211_pro_bono_opportunity</from_table>
+        <m2m_from_field>x_1263211_pro_bono_opportunity</m2m_from_field>
+        <m2m_from_label>Staffing Requirements</m2m_from_label>
+        <m2m_table>x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr</m2m_table>
+        <m2m_to_field>x_1263211_pro_bono_staffing_requirement</m2m_to_field>
+        <m2m_to_label>opportunities</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 06:09:16</sys_created_on>
+        <sys_id>4776cbb89311421074347af08bba1083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_m2m_4776cbb89311421074347af08bba1083</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 06:09:16</sys_updated_on>
+        <to_table>x_1263211_pro_bono_staffing_requirement</to_table>
+    </sys_m2m>
+</record_update>

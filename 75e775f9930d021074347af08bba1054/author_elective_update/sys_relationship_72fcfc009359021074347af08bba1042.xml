@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>customer_account</basic_apply_to>
+        <basic_query_from>x_1263211_pro_bono_opportunity</basic_query_from>
+        <insert_callback/>
+        <name>Opportunities</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	// current.addQuery('referral_source','!=',"");
+		current.addQuery('referral_source','=',parent.name);
+	
+	
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 12:13:32</sys_created_on>
+        <sys_id>72fcfc009359021074347af08bba1042</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Opportunities</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_relationship_72fcfc009359021074347af08bba1042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 03:37:03</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=72fcfc009359021074347af08bba1042"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_relationship_72fcfc009359021074347af08bba1042</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;customer_account&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1263211_pro_bono_opportunity&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Opportunities&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	// current.addQuery('referral_source','!=',"");
+		current.addQuery('referral_source','=',parent.name);
+	
+	
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-27 12:13:32&lt;/sys_created_on&gt;&lt;sys_id&gt;72fcfc009359021074347af08bba1042&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Opportunities&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono"&gt;75e775f9930d021074347af08bba1054&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Opportunity"&gt;75e775f9930d021074347af08bba1054&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_72fcfc009359021074347af08bba1042&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-08 03:37:03&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=72fcfc009359021074347af08bba1042"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-585858157</payload_hash>
+        <record_name>Opportunities</record_name>
+        <reverted_from/>
+        <source>35395d2a9355021074347af08bba108a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 03:37:04</sys_created_on>
+        <sys_id>081af0339351021074347af08bba1056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ebbc7e77f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 03:37:04</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>8c1af0332b51021078365fdee30dc255</update_guid>
+        <update_guid_history>8c1af0332b51021078365fdee30dc255:-585858157,0252707bdc1102105f6e39c9fd40b8ac:2106746766,8ae1f4b70f110210a93f407d6d840f85:-2100272590,0ad0fc7796110210aacc3057deb81027:1209284788,c0ba3f7c99d1421075a72d58b4339bdf:-1374057323,105afb7c7dd14210fe5564e2064aacb3:2137790417,4c0abf3cf1d1421047386e8dbc54f2f3:-743211481,b0df7c006959021017e7173215d8cd3d:454895858,e03dfc00d1590210bb9c6cdd90d005c1:-1287332368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 04:21:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>09ac4852318a4bfb8287154a63f21f11</sys_id>
+        <sys_metadata>72fcfc009359021074347af08bba1042</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opportunities</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="">e68cc6c69309021074347af08bba10ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_relationship_72fcfc009359021074347af08bba1042</sys_update_name>
+        <sys_update_version display_value="sys_relationship_72fcfc009359021074347af08bba1042">081af0339351021074347af08bba1056</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 04:21:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

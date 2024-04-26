@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="55bad1f59349021074347af08bba10bd" label="Related Party" max_length="40" name="sn_customerservice_related_party" type="collection">
+        <element choice="3" default="1" label="Accepted Opportunity" max_length="40" name="x_1263211_pro_bono_accepted_opportunity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="False" value="1"/>
+                <element inactive_on_update="false" label="True" value="2"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="x_1263211_pro_bono_email" type="string"/>
+        <element label="Employee ID Number" max_length="100" name="x_1263211_pro_bono_employee_id_number" type="string"/>
+        <element label="Notes" max_length="4000" name="x_1263211_pro_bono_notes" type="string"/>
+        <element label="Opportunity" max_length="32" name="x_1263211_pro_bono_opportunity" reference="x_1263211_pro_bono_opportunity" type="reference"/>
+        <element choice="1" label="Subpractice Group" max_length="100" name="x_1263211_pro_bono_subpractice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="M&amp;A" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="IP Litigation" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Timekeeper " max_length="32" name="x_1263211_pro_bono_timekeeper" reference="x_1263211_pro_bono_timekeeper_register" type="reference"/>
+        <element label="Timekeeper Name" max_length="100" name="x_1263211_pro_bono_timekeeper_name" type="string"/>
+        <element label="Timekeeper Office" max_length="100" name="x_1263211_pro_bono_timekeeper_office" type="string"/>
+        <element choice="1" label="Timekeeper Type" max_length="40" name="x_1263211_pro_bono_timekeeper_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Associate" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Income Partner" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="PA" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Share Partner" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="x_1263211_pro_bono_opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="x_1263211_pro_bono_timekeeper"/>
+        </index>
+    </element>
+</database>

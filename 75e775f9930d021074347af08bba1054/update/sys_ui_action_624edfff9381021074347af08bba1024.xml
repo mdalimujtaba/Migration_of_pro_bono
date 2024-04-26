@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>status=='1'</condition>
+        <condition>current.status=='1'&amp;&amp;!current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -34,7 +34,7 @@
     g_form.setMandatory('sensitive_notes', true);
     g_form.setMandatory('comment', true);
 
-    g_form.setValue('status', '6');
+    g_form.setValue('status', '7');
 
 	gsftSubmit(null, g_form.getFormElement(), 'sysverb_update_and_stay');
     // gsftSubmit(null, g_form.getFormElement(), 'cancel_opportunity');
@@ -59,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>624edfff9381021074347af08bba1024</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Cancelled</sys_name>
         <sys_overrides/>
         <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
@@ -67,7 +67,7 @@
         <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
         <sys_update_name>sys_ui_action_624edfff9381021074347af08bba1024</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-27 07:39:28</sys_updated_on>
+        <sys_updated_on>2024-03-28 03:08:01</sys_updated_on>
         <table>x_1263211_pro_bono_opportunity</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>

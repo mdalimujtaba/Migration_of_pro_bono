@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="01a8fa3c93dd021074347af08bba10ed" label="Staffing Requirement" max_length="40" name="x_1263211_pro_bono_staffing_requirement" type="collection">
+        <element label="Bar Admission" max_length="100" name="bar_admission" type="string"/>
+        <element label="Client Name" max_length="100" name="client_name" type="string"/>
+        <element label="Client Type" max_length="32" name="client_type" reference="x_1263211_pro_bono_foundation_attribute_data" reference_qual="type=2^EQ" reference_qual_condition="type=2^EQ" type="reference"/>
+        <element label="Number" max_length="40" name="count" type="integer"/>
+        <element label="Law School Year" max_length="40" name="law_school_year" type="glide_date"/>
+        <element label="Matter Description" max_length="4000" name="matter_description" type="string"/>
+        <element label="Matter Name" max_length="100" name="matter_name" type="string"/>
+        <element choice="3" label="Matter Office" max_length="40" name="matter_office" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="London" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Los Angeles" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Miami" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Munich" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="New York" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Paris" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Riyadh" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Salt Lake City" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Shanghai" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="Wahington D.C" sequence="10" value="10"/>
+            </choice>
+        </element>
+        <element label="Matter Type" max_length="32" name="matter_type" reference="x_1263211_pro_bono_foundation_attribute_data" reference_qual="type=1^EQ" reference_qual_condition="type=1^EQ" type="reference"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal_input"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="x_1263211_pro_bono_opportunity" type="reference"/>
+        <element label="Practice Group" max_length="4000" name="practice_group" type="glide_list"/>
+        <element choice="1" label="Staffing Requirement" max_length="100" name="staffing_requirement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Associate" value="2"/>
+                <element inactive_on_update="false" label="Partner" value="1"/>
+            </choice>
+        </element>
+        <element label="Subpractice group" max_length="4000" name="subpractice_group" type="glide_list"/>
+        <element label="Timekeeper Office" max_length="32" name="timekeeper_office" reference="x_1263211_pro_bono_foundation_attribute_data" reference_qual="type=7^EQ" reference_qual_condition="type=7^EQ" type="reference"/>
+        <element choice="1" label="Timekeeper Type" max_length="40" name="timekeeper_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Associate" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Income partner" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="PA" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Share Partner" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="client_type"/>
+        </index>
+        <index name="index2">
+            <element name="matter_type"/>
+        </index>
+        <index name="index3">
+            <element name="opportunity"/>
+        </index>
+        <index name="index4">
+            <element name="timekeeper_office"/>
+        </index>
+    </element>
+</database>

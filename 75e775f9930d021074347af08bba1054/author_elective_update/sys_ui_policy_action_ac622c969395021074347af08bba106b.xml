@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>zip_postal_code</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 10:02:43</sys_created_on>
+        <sys_id>ac622c969395021074347af08bba106b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zip_postal_code</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ac622c969395021074347af08bba106b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 10:02:43</sys_updated_on>
+        <table>x_1263211_pro_bono_referral_source_register</table>
+        <ui_policy display_value="Makes field mandatory of referral source table">3a81a41a9395021074347af08bba1013</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_ui_policy_action_ac622c969395021074347af08bba106b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>zip_postal_code</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 10:02:43</sys_created_on><sys_id>ac622c969395021074347af08bba106b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>zip_postal_code</sys_name><sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package><sys_policy/><sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope><sys_update_name>sys_ui_policy_action_ac622c969395021074347af08bba106b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 10:02:43</sys_updated_on><table>x_1263211_pro_bono_referral_source_register</table><ui_policy display_value="Makes field mandatory of referral source table">3a81a41a9395021074347af08bba1013</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1766328417</payload_hash>
+        <record_name>zip_postal_code</record_name>
+        <reverted_from/>
+        <source>6a82545a9355021074347af08bba103f</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 10:02:43</sys_created_on>
+        <sys_id>a462645a9395021074347af08bba10c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea3692fc70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 10:02:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>e862645a849502104e5ca2a81bcb62c5</update_guid>
+        <update_guid_history>e862645a849502104e5ca2a81bcb62c5:-1766328417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 02:40:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5c9db4e4d6b740ec9cd12d2169aba510</sys_id>
+        <sys_metadata>ac622c969395021074347af08bba106b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>zip_postal_code</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="">3a81a41a9395021074347af08bba1013</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ac622c969395021074347af08bba106b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ac622c969395021074347af08bba106b">a462645a9395021074347af08bba10c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 02:40:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

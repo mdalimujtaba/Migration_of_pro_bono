@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="KENI" section_id="6fcd52f0939d021074347af08bba1092" sys_domain="global" table="x_1263211_pro_bono_opportunity" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>keni_request_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>267fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>c_m_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>a67fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>2a7fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conditions_met</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>aa7fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>responsible_partner</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>2e7fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>ae7fda34939d021074347af08bba10a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>matter_status</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>227fda34939d021074347af08bba10a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_opened</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>a27fda34939d021074347af08bba10a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_closed</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>267fda34939d021074347af08bba10a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>office</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:18:22</sys_created_on>
+            <sys_id>a67fda34939d021074347af08bba10a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="KENI" display_value="KENI" name="x_1263211_pro_bono_opportunity" sys_domain="global" view="Default view">6fcd52f0939d021074347af08bba1092</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:18:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>KENI</caption>
+            <header>false</header>
+            <name>x_1263211_pro_bono_opportunity</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-30 03:11:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fcd52f0939d021074347af08bba1092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1263211_pro_bono_opportunity</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+            <sys_update_name>sys_ui_section_6fcd52f0939d021074347af08bba1092</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-30 03:11:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

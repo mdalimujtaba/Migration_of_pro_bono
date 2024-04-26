@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_cascading_filter">
+    <sys_ui_hp_cascading_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cascading_filter_reference_field/>
+        <conditions/>
+        <display_field>number</display_field>
+        <look_up_name>Filter By Number</look_up_name>
+        <name>Filter By Number</name>
+        <parent/>
+        <publisher_reference display_value="">ae2cb6da93e1021074347af08bba10b1</publisher_reference>
+        <sys_class_name>sys_ui_hp_cascading_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 09:08:49</sys_created_on>
+        <sys_id>4d82d7529365021074347af08bba10e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Filter By Number</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_ui_hp_cascading_filter_4d82d7529365021074347af08bba10e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 09:24:31</sys_updated_on>
+        <table>sn_customerservice_case</table>
+    </sys_ui_hp_cascading_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d82d7529365021074347af08bba10e9"/>
+</record_update>

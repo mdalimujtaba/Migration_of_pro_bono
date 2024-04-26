@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>bar_admission</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 08:38:42</sys_created_on>
+        <sys_id>4f1f84569355021074347af08bba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bar_admission</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4f1f84569355021074347af08bba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 08:38:42</sys_updated_on>
+        <table>x_1263211_pro_bono_timekeeper_register</table>
+        <ui_policy display_value="Makes following field mandatory.">419c4c529355021074347af08bba1091</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_ui_policy_action_4f1f84569355021074347af08bba1025</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>bar_admission</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-03 08:38:42</sys_created_on><sys_id>4f1f84569355021074347af08bba1025</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bar_admission</sys_name><sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package><sys_policy/><sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope><sys_update_name>sys_ui_policy_action_4f1f84569355021074347af08bba1025</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-03 08:38:42</sys_updated_on><table>x_1263211_pro_bono_timekeeper_register</table><ui_policy display_value="Makes following field mandatory.">419c4c529355021074347af08bba1091</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1071315732</payload_hash>
+        <record_name>bar_admission</record_name>
+        <reverted_from/>
+        <source>d942ccd69315021074347af08bba104c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-03 08:38:42</sys_created_on>
+        <sys_id>b92fc0569355021074347af08bba10be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ea31c45c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-03 08:38:42</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fd2fc056ad5502100f8b3455f51a31bd</update_guid>
+        <update_guid_history>fd2fc056ad5502100f8b3455f51a31bd:1071315732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 10:38:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>76945526103e40679797d496f70cd359</sys_id>
+        <sys_metadata>4f1f84569355021074347af08bba1025</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bar_admission</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="Makes following field mandatory.">419c4c529355021074347af08bba1091</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_4f1f84569355021074347af08bba1025</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_4f1f84569355021074347af08bba1025">b92fc0569355021074347af08bba10be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 10:38:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

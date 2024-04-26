@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="42964f389311421074347af08bba1015" label="x_1263211_pro_bono_m2m_opportunities_Staffing Requirements" max_length="40" name="x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr" type="collection">
+        <element attributes="encode_utf8=false" label="opportunities" max_length="32" name="x_1263211_pro_bono_opportunity" reference="x_1263211_pro_bono_opportunity" type="reference"/>
+        <element attributes="encode_utf8=false" label="Staffing Requirements" max_length="32" name="x_1263211_pro_bono_staffing_requirement" reference="x_1263211_pro_bono_staffing_requirement" type="reference"/>
+        <index name="index">
+            <element name="x_1263211_pro_bono_opportunity"/>
+        </index>
+    </element>
+</database>

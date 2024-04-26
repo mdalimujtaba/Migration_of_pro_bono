@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e01c4d029305021074347af08bba1001" label="Foundation Attribute data" max_length="40" name="x_1263211_pro_bono_foundation_attribute_data" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Matter Type" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Client Type" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Representation Type" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Referral Source" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Special Matter Tag" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Language" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Country" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element display="true" label="Value" max_length="250" name="value" type="string"/>
+    </element>
+</database>

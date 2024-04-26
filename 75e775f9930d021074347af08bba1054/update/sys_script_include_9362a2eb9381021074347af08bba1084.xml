@@ -11,7 +11,7 @@
 Get_sysId_of_selected_record.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getSysId: function() {
         var sysId = this.getParameter('arrayId');
-		var opportunity_sysId=gs.getProperty('x_1263211_pro_bono.get_sysId');
+		var opportunity_sysId=this.getParameter("opportunity_id");
         var array_of_sys_Id = sysId.split(',');
         // gs.log('array:', array_of_sys_Id);
         for (var i = 0; i < array_of_sys_Id.length; i++) {
@@ -19,6 +19,7 @@ Get_sysId_of_selected_record.prototype = Object.extendsObject(global.AbstractAja
             gr.get(array_of_sys_Id[i]);
             var grc = new GlideRecord('sn_customerservice_related_party');
             grc.addQuery('x_1263211_pro_bono_opportunity', opportunity_sysId);
+            // grc.addQuery('case_record', opportunity_sysId);
 			grc.addQuery('x_1263211_pro_bono_timekeeper',array_of_sys_Id[i]);
             grc.query();
             if (grc.next()) {
@@ -26,14 +27,21 @@ Get_sysId_of_selected_record.prototype = Object.extendsObject(global.AbstractAja
             } else {
                 grc.initialize();
 				grc.x_1263211_pro_bono_opportunity=opportunity_sysId;
+				// grc.case_record=opportunity_sysId;
 				grc.x_1263211_pro_bono_timekeeper=array_of_sys_Id[i];
-                grc.x_1263211_pro_bono_timekeeper_name = gr.timekeeper_name;
-                grc.x_1263211_pro_bono_email = gr.email;
-                grc.x_1263211_pro_bono_subpractice_group = gr.sub_practice_group;
-                grc.x_1263211_pro_bono_notes = gr.notes;
+				
+                // grc.x_1263211_pro_bono_timekeeper_name = ;
+                // grc.x_1263211_pro_bono_email = gr.email;
+                // grc.x_1263211_pro_bono_subpractice_group = gr.sub_practice_group;
+                // grc.x_1263211_pro_bono_notes = gr.notes;
                 grc.insert();
             }
         }
+		// function getUserName(sys_id){
+		// 	var user=new GlideRecord('sys_user');
+		// 	user.addQuery('sys_id',sys_id);
+			
+		// }
     },
     getIdOfselectedRecord: function() {
         var sys_Id = this.getParameter('arrayId');
@@ -65,13 +73,13 @@ Get_sysId_of_selected_record.prototype = Object.extendsObject(global.AbstractAja
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-26 06:29:34</sys_created_on>
         <sys_id>9362a2eb9381021074347af08bba1084</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Get_sysId_of_selected_record</sys_name>
         <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
         <sys_update_name>sys_script_include_9362a2eb9381021074347af08bba1084</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 06:09:58</sys_updated_on>
+        <sys_updated_on>2024-04-12 11:28:25</sys_updated_on>
     </sys_script_include>
 </record_update>

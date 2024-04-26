@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</source_scope>
+        <status>denied</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 17:20:04</sys_created_on>
+        <sys_id>e53969b393a9021074347af08bba10f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_scope_privilege_e53969b393a9021074347af08bba10f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 17:27:41</sys_updated_on>
+        <target_name>incident</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_scope_privilege_e53969b393a9021074347af08bba10f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</source_scope><status>denied</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 17:20:04</sys_created_on><sys_id>e53969b393a9021074347af08bba10f7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package><sys_policy/><sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope><sys_update_name>sys_scope_privilege_e53969b393a9021074347af08bba10f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 17:27:41</sys_updated_on><target_name>incident</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>271184670</payload_hash>
+        <record_name>incident</record_name>
+        <reverted_from/>
+        <source>1ec1a9bb9369021074347af08bba10f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 17:27:41</sys_created_on>
+        <sys_id>2c4b29f393a9021074347af08bba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18efc8cae210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 17:27:41</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>a04b29f367a90210efd240241c586531</update_guid>
+        <update_guid_history>a04b29f367a90210efd240241c586531:271184670,85c96d730ca902104ca30db7fe649426:-2023435823,0d89a9b3e5a90210634a2558a14a89b7:-475137961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 18:05:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>3305de654fdc4cdcbe8229b988a4ec10</sys_id>
+        <sys_metadata>e53969b393a9021074347af08bba10f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_e53969b393a9021074347af08bba10f7</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_e53969b393a9021074347af08bba10f7">2c4b29f393a9021074347af08bba1031</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 18:05:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

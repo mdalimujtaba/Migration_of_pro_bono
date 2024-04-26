@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-16 04:37:19</sys_created_on>
+        <sys_id>d0845a569361021074347af08bba1002</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1263211_pro_bono_staffing_requirement</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_db_view_table_d0845a569361021074347af08bba1002</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-16 04:37:19</sys_updated_on>
+        <table>x_1263211_pro_bono_staffing_requirement</table>
+        <variable_prefix>staff</variable_prefix>
+        <view display_value="x_1263211_pro_bono_staff_requirement">036456569361021074347af08bba10e8</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

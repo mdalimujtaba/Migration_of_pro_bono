@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1263211_pro_bono.only_one_user_linked_to_one_record</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>only_one_user_linked_to_one_record</name>
+        <script><![CDATA[var only_one_user_linked_to_one_record = Class.create();
+only_one_user_linked_to_one_record.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	one_to_one:function(){
+		var sys_Id=this.getParameter('id');
+		
+		var gr=new GlideRecord('x_1263211_pro_bono_timekeeper_register');
+		gr.addQuery('user',sys_Id);
+		gr.query();
+		if(gr.next()){
+			return 'true';
+		}
+		else{
+			return false;
+		}
+	},
+    type: 'only_one_user_linked_to_one_record'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 07:08:56</sys_created_on>
+        <sys_id>2e5a65739315021074347af08bba10e8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>only_one_user_linked_to_one_record</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_script_include_2e5a65739315021074347af08bba10e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 07:52:40</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_script_include_2e5a65739315021074347af08bba10e8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1263211_pro_bono.only_one_user_linked_to_one_record&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;only_one_user_linked_to_one_record&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var only_one_user_linked_to_one_record = Class.create();
+only_one_user_linked_to_one_record.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	one_to_one:function(){
+		var sys_Id=this.getParameter('id');
+		
+		var gr=new GlideRecord('x_1263211_pro_bono_timekeeper_register');
+		gr.addQuery('user',sys_Id);
+		gr.query();
+		if(gr.next()){
+			return 'true';
+		}
+		else{
+			return false;
+		}
+	},
+    type: 'only_one_user_linked_to_one_record'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-08 07:08:56&lt;/sys_created_on&gt;&lt;sys_id&gt;2e5a65739315021074347af08bba10e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;only_one_user_linked_to_one_record&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono"&gt;75e775f9930d021074347af08bba1054&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Opportunity"&gt;75e775f9930d021074347af08bba1054&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2e5a65739315021074347af08bba10e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-08 07:52:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1292496139</payload_hash>
+        <record_name>only_one_user_linked_to_one_record</record_name>
+        <reverted_from/>
+        <source>35395d2a9355021074347af08bba108a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 07:52:40</sys_created_on>
+        <sys_id>8c94b9bb9315021074347af08bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ebcb1e97f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 07:52:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0494b9bb8f1502104421920eec8ee28e</update_guid>
+        <update_guid_history>0494b9bb8f1502104421920eec8ee28e:-1292496139,c0b335bb2215021087c36759c3f0e062:-1161733285,4a5335bbc0150210fdb5afe59268162b:24648376,3182317bb51502102253761477cd8cf4:1473212132,f5e1b1b7871502108b88461357a78a87:-9995447,5da1b9f773150210a8880408f154b469:-1457705083,df90b5b7551502100278660740ce6e6a:95883508,bd20b1b7aa1502102113b635ac42866c:614133725,517fad770a15021017968a936aca2c47:-2016100649,29fe217763150210bee7cfcc77a38e40:-1361575500,5bbe65737215021065fa99c9e6910646:-1680395998,b44d21f3d715021000982830e10eb5dd:-1682990084,b38a6973781502105c56ffbc8aac2b01:1492201979</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-08 08:39:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>26f789b9be1144b091bfc70b9a0e0900</sys_id>
+        <sys_metadata>2e5a65739315021074347af08bba10e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>only_one_user_linked_to_one_record</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_script_include_2e5a65739315021074347af08bba10e8</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2e5a65739315021074347af08bba10e8">8c94b9bb9315021074347af08bba108e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-08 08:39:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

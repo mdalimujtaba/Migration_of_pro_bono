@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 03:38:59</sys_created_on>
+        <sys_id>b9f04ef19351021074347af08bba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get_sysId_of_selected_record.snc_internal</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_security_acl display_value="Get_sysId_of_selected_record">dce4aaab9381021074347af08bba1062</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b9f04ef19351021074347af08bba102e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 03:38:59</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>25f042f19311021074347af08bba101c</transaction_id>
+    </sys_security_acl_role>
+</record_update>

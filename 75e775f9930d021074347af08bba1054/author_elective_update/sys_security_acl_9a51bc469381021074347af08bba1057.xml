@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1263211_pro_bono_foundation_attribute_data</description>
+        <name>x_1263211_pro_bono_foundation_attribute_data</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 06:13:56</sys_created_on>
+        <sys_id>9a51bc469381021074347af08bba1057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1263211_pro_bono_foundation_attribute_data</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_security_acl_9a51bc469381021074347af08bba1057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 06:13:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_security_acl_9a51bc469381021074347af08bba1057</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1263211_pro_bono_foundation_attribute_data</description><name>x_1263211_pro_bono_foundation_attribute_data</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 06:13:56</sys_created_on><sys_id>9a51bc469381021074347af08bba1057</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1263211_pro_bono_foundation_attribute_data</sys_name><sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package><sys_policy/><sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope><sys_update_name>sys_security_acl_9a51bc469381021074347af08bba1057</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 06:13:56</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>490904809</payload_hash>
+        <record_name>x_1263211_pro_bono_foundation_attribute_data</record_name>
+        <reverted_from/>
+        <source>39e775f9930d021074347af08bba1056</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 06:13:56</sys_created_on>
+        <sys_id>9a51bc469381021074347af08bba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5fa50dd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 06:13:56</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>de51bc468f810210a475f3e6a4fe675b</update_guid>
+        <update_guid_history>de51bc468f810210a475f3e6a4fe675b:490904809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 08:06:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>82d62c41fb444c889bdf5e7f5c7e9090</sys_id>
+        <sys_metadata>9a51bc469381021074347af08bba1057</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1263211_pro_bono_foundation_attribute_data</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="">ae51bc469381021074347af08bba1061</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9a51bc469381021074347af08bba1057</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9a51bc469381021074347af08bba1057">9a51bc469381021074347af08bba105c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:06:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

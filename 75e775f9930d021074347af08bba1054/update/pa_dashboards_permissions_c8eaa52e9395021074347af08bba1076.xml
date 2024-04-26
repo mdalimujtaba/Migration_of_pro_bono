@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Opportunity Admin Dashboard">99da592e9355021074347af08bba1050</dashboard>
+        <delete>false</delete>
+        <group display_value="ProBono extended admin support" name="ProBono extended admin support">fd346e6d93d9c21074347af08bba1033</group>
+        <identity>fd346e6d93d9c21074347af08bba1033</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 09:57:55</sys_created_on>
+        <sys_id>c8eaa52e9395021074347af08bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fd346e6d93d9c21074347af08bba1033</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_c8eaa52e9395021074347af08bba1076</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-04 09:57:55</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>

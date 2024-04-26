@@ -9,7 +9,7 @@
         <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
-        <sys_ui_action display_value="Add">d3fcf3e69385021074347af08bba1059</sys_ui_action>
+        <sys_ui_action display_value="Shortlist User">d3fcf3e69385021074347af08bba1059</sys_ui_action>
         <sys_ui_view display_value="Add view" name="add_view">0f1445139349821074347af08bba1093</sys_ui_view>
         <sys_update_name>sys_ui_action_view_eb2581539349821074347af08bba1065</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

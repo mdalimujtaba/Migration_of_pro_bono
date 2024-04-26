@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d460ca8a93c5021074347af08bba1059" label="Timekeeper Register" max_length="40" name="x_1263211_pro_bono_timekeeper_register" type="collection">
+        <element label="Awards/Recognition" max_length="4000" name="awards_recognition" type="glide_list"/>
+        <element label="Bar Admission" max_length="100" name="bar_admission" type="string"/>
+        <element label="Bar Admission Number" max_length="100" name="bar_admission_number" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="Employee ID Number" max_length="40" name="employee_id_number" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Language" max_length="4000" name="language" reference="x_1263211_pro_bono_foundation_attribute_data" reference_qual="type=6^EQ" reference_qual_condition="type=6^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Law School Year" max_length="40" name="law_school_year" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Practice Group" max_length="4000" name="practice_group" type="glide_list"/>
+        <element label="Sensitive Notes Field" max_length="4000" name="sensitive_notes_field" type="string"/>
+        <element label="Special Tags" max_length="40" name="special_tags" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element choice="1" label="Sub Practice Group" max_length="4000" name="sub_practice_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="M&amp;A" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="IP Litigation" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Timekeeper Name" max_length="40" name="timekeeper_name" type="string"/>
+        <element label="Timekeeper Office" max_length="4000" name="timekeeper_office" reference="x_1263211_pro_bono_foundation_attribute_data" reference_qual="type=7^EQ" reference_qual_condition="type=7^EQ" type="glide_list"/>
+        <element choice="3" label="Timekeeper Status" max_length="40" name="timekeeper_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Inactive" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="On Leave" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Timekeeper Type" max_length="4000" name="timekeeper_type" type="glide_list"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" reference_qual="javascript:new one_to_one_relationship_with_user().one_to_one();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="YTD Time Billed" max_length="40" name="ytd_time_billed" type="glide_date_time"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

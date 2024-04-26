@@ -9,7 +9,7 @@
         <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
         <sys_policy/>
         <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
-        <sys_security_acl display_value="">26f7d82a9351021074347af08bba103d</sys_security_acl>
+        <sys_security_acl display_value="x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr">26f7d82a9351021074347af08bba103d</sys_security_acl>
         <sys_update_name>sys_security_acl_role_1928182a9351021074347af08bba10d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-04-04 03:56:52</sys_updated_on>

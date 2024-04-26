@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>We have to populate users detail when we select any existing opportunity.</description>
+        <field>existing_client_matter</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AutoPopulateField</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ga=new GlideAjax('AutoPopulateOpportunityField');
+	ga.addParam('sysparm_name','populateField');
+	ga.addParam('sysID',newValue);
+	ga.getXML(callback);
+	function callback(response){
+		var answer=response.responseXML.documentElement.getAttribute('answer');
+		alert(answer);
+		
+		var obj=JSON.parse(answer);
+		alert(typeof(obj));
+		g_form.setValue('client_name',obj.client_name);
+		g_form.setValue('matter_name',obj.matter_name);
+		g_form.setValue('client_type',obj.client_type);
+		g_form.setValue('matter_type',obj.matter_type);
+		g_form.setValue('representation_type',obj.representation_type);
+		g_form.setValue('referral_source',obj.referral_source);
+		g_form.setValue('matter_description',obj.matter_description);
+		g_form.setValue('matter_office',obj.matter_office);
+		g_form.setValue('deadline',obj.deadline);
+		g_form.setValue('keni_request_submission_date',obj.keni_request_submission_date);
+		g_form.setValue('opportunity_created',obj.opportunity_created);
+		g_form.setValue('language_requirement',obj.language_requirement);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 09:54:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c1f8fb19395021074347af08bba101e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AutoPopulateField</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_script_client_0c1f8fb19395021074347af08bba101e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:32:03</sys_updated_on>
+        <table>x_1263211_pro_bono_opportunity</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_script_client_0c1f8fb19395021074347af08bba101e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;We have to populate users detail when we select any existing opportunity.&lt;/description&gt;&lt;field&gt;existing_client_matter&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;AutoPopulateField&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ga=new GlideAjax('AutoPopulateOpportunityField');
+	ga.addParam('sysparm_name','populateField');
+	ga.addParam('sysID',newValue);
+	ga.getXML(callback);
+	function callback(response){
+		var answer=response.responseXML.documentElement.getAttribute('answer');
+		alert(answer);
+		
+		var obj=JSON.parse(answer);
+		alert(typeof(obj));
+		g_form.setValue('client_name',obj.client_name);
+		g_form.setValue('matter_name',obj.matter_name);
+		g_form.setValue('client_type',obj.client_type);
+		g_form.setValue('matter_type',obj.matter_type);
+		g_form.setValue('representation_type',obj.representation_type);
+		g_form.setValue('referral_source',obj.referral_source);
+		g_form.setValue('matter_description',obj.matter_description);
+		g_form.setValue('matter_office',obj.matter_office);
+		g_form.setValue('deadline',obj.deadline);
+		g_form.setValue('keni_request_submission_date',obj.keni_request_submission_date);
+		g_form.setValue('opportunity_created',obj.opportunity_created);
+		g_form.setValue('language_requirement',obj.language_requirement);
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-02 09:54:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0c1f8fb19395021074347af08bba101e&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;AutoPopulateField&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono"&gt;75e775f9930d021074347af08bba1054&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Opportunity"&gt;75e775f9930d021074347af08bba1054&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0c1f8fb19395021074347af08bba101e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-02 10:32:03&lt;/sys_updated_on&gt;&lt;table&gt;x_1263211_pro_bono_opportunity&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-868604261</payload_hash>
+        <record_name>AutoPopulateField</record_name>
+        <reverted_from/>
+        <source>8ec2b2f59315021074347af08bba109d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-02 10:32:03</sys_created_on>
+        <sys_id>d88f5b7d9395021074347af08bba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9e5daede0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-02 10:32:03</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d08f5b7d6b950210fc8289d4c4f39677</update_guid>
+        <update_guid_history>d08f5b7d6b950210fc8289d4c4f39677:-868604261,acc9d77d3e9502105bfd4fddb066be29:445094981,d76997b5379502103dd17199e825fd7b:357313726,42d8dfb95b95021054e9b7a3eb48461e:-494620442,7d4857f90b9502103c92deccedbd8315:591407784,e5e6d7b9c2950210debbf8301f9317f0:1078912986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 10:16:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0e06c0f33b2b4b2e9c7c9155facad6c9</sys_id>
+        <sys_metadata>0c1f8fb19395021074347af08bba101e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoPopulateField</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="opportunity">4be83d3d930d021074347af08bba10f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_script_client_0c1f8fb19395021074347af08bba101e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0c1f8fb19395021074347af08bba101e">d88f5b7d9395021074347af08bba1077</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 10:16:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

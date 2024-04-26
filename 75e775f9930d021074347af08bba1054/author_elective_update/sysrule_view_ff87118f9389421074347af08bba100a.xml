@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_1263211_pro_bono_timekeeper_register">sys_created_on&gt;javascript:gs.endOfYesterday()^ORsys_created_on&gt;javascript:gs.endOfYesterday()^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.endOfYesterday()"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;" or="true" value="javascript:gs.endOfYesterday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Add view</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-24 11:47:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff87118f9389421074347af08bba100a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Add view</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sysrule_view_ff87118f9389421074347af08bba100a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-24 12:12:56</sys_updated_on>
+        <table>x_1263211_pro_bono_timekeeper_register</table>
+        <view>Add view</view>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sysrule_view_ff87118f9389421074347af08bba100a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition table="x_1263211_pro_bono_timekeeper_register"&gt;sys_created_on&amp;gt;javascript:gs.endOfYesterday()^ORsys_created_on&amp;gt;javascript:gs.endOfYesterday()^EQ&lt;item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&amp;gt;" or="false" value="javascript:gs.endOfYesterday()"/&gt;&lt;item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&amp;gt;" or="true" value="javascript:gs.endOfYesterday()"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;Add view&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-24 11:47:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ff87118f9389421074347af08bba100a&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add view&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono"&gt;75e775f9930d021074347af08bba1054&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Opportunity"&gt;75e775f9930d021074347af08bba1054&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_ff87118f9389421074347af08bba100a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-24 12:12:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1263211_pro_bono_timekeeper_register&lt;/table&gt;&lt;view&gt;Add view&lt;/view&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1749499769</payload_hash>
+        <record_name>Add view</record_name>
+        <reverted_from/>
+        <source>e2f13a129385021074347af08bba10fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-24 12:12:56</sys_created_on>
+        <sys_id>d240250b93c9421074347af08bba10e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e7060cefa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-24 12:12:56</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>da40250b76c9421047f63dd9af6343e5</update_guid>
+        <update_guid_history>da40250b76c9421047f63dd9af6343e5:-1749499769,95ce5dc7bec9421040a8152efd5b146b:-692499360,2f7c950705c94210f9dcf041a08edef3:-1806266082,4c4b1107e6c9421094ec1d14e5ae7ba7:-1058214670,288a958384c94210e2d0881b56b52cf4:-1806266082,f07a1107b7c942102cbef734dcb7d8a4:941626544,d96a1107f5c942104013a8b212f2fc9f:-515199822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 04:54:44</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>1d859ed1bba24ccc839e644a8f6866c4</sys_id>
+        <sys_metadata>ff87118f9389421074347af08bba100a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add view</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="Timekeeper Register">d460ca8a93c5021074347af08bba1059</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sysrule_view_ff87118f9389421074347af08bba100a</sys_update_name>
+        <sys_update_version display_value="sysrule_view_ff87118f9389421074347af08bba100a">d240250b93c9421074347af08bba10e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 04:54:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

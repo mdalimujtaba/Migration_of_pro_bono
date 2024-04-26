@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1263211_pro_bono_opportunity</basic_apply_to>
+        <basic_query_from>x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr</basic_query_from>
+        <insert_callback/>
+        <name>Staffing Requirements</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+// current.addQuery('sys_id', parent.sys_id);
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:18:53</sys_created_on>
+        <sys_id>945236929385021074347af08bba108d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Staffing Requirements</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_relationship_945236929385021074347af08bba108d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 10:00:59</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=945236929385021074347af08bba108d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</application>
+        <file_path/>
+        <instance_id>0005dfb01bc67d58ba5ceb9b2d4bcbb7</instance_id>
+        <instance_name>dev191189</instance_name>
+        <name>sys_relationship_945236929385021074347af08bba108d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1263211_pro_bono_opportunity&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1263211_pro_bono_m2m_x_1263211_pr_x_1263211_pr&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Staffing Requirements&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+// current.addQuery('sys_id', parent.sys_id);
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 10:18:53&lt;/sys_created_on&gt;&lt;sys_id&gt;945236929385021074347af08bba108d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Staffing Requirements&lt;/sys_name&gt;&lt;sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono"&gt;75e775f9930d021074347af08bba1054&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Pro Bono Opportunity"&gt;75e775f9930d021074347af08bba1054&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_945236929385021074347af08bba108d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-30 10:00:59&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=945236929385021074347af08bba108d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>810888625</payload_hash>
+        <record_name>Staffing Requirements</record_name>
+        <reverted_from/>
+        <source>afa850489395021074347af08bba10ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 10:00:59</sys_created_on>
+        <sys_id>dcabb7fc93d1421074347af08bba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e8ece29e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 10:00:59</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>d4abb7fcd0d14210b286f4280bb4e950</update_guid>
+        <update_guid_history>d4abb7fcd0d14210b286f4280bb4e950:810888625,2d636bf04091421056cd17bc096e526a:362774601,3b236f74db914210502e364bc887d310:1839034891,13cc332bb60902106d634a8ed6ac1800:1088232678,fa33769208850210a7e57e6ba092ed2d:1491052342,100376120a8502104fbd27f0c86ce07d:-1582139338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-30 10:54:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>04153768a6694e6886640fecb3046490</sys_id>
+        <sys_metadata>945236929385021074347af08bba108d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Staffing Requirements</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_parent display_value="opportunity">4be83d3d930d021074347af08bba10f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_scope_delete display_value="">4939e14295d74ad8992283308c170e90</sys_scope_delete>
+        <sys_update_name>sys_relationship_945236929385021074347af08bba108d</sys_update_name>
+        <sys_update_version display_value="sys_relationship_945236929385021074347af08bba108d">dcabb7fc93d1421074347af08bba1050</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-30 10:54:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

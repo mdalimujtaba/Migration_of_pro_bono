@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="laxmi">ce3e20b793c9021074347af08bba1040</action_payload_definition>
+        <label>laxmi Related List</label>
+        <model display_value="Related List">d91731a9534723003eddddeeff7b121c</model>
+        <payload_map>label=Add^table={{table}}^columns=^referencedFieldName=^view=Default^type=m2m^relatedListName={{relatedListName}}^userGivenTable=x_1263211_pro_bono_timekeeper_register^hideSelectAll=false^extensionPoint=^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 16:49:45</sys_created_on>
+        <sys_id>c9d2303f93c9021074347af08bba104e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>laxmi Related List</sys_name>
+        <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_c9d2303f93c9021074347af08bba104e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 16:49:45</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

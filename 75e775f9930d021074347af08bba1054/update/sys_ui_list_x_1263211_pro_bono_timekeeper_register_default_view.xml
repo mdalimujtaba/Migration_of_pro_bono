@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1263211_pro_bono_timekeeper_register" version="2" view="default_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1263211_pro_bono_timekeeper_register" element="NULL" name="x_1263211_pro_bono_timekeeper_register" parent="NULL" relationship="NULL" sys_domain="global" view="64a84dd39349821074347af08bba103a">7d7e5fd49361021074347af08bba1076</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-10 04:52:19</sys_created_on>
+            <sys_id>797e5fd49361021074347af08bba1077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-10 04:52:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.name</element>
+            <list_id display_value="x_1263211_pro_bono_timekeeper_register" element="NULL" name="x_1263211_pro_bono_timekeeper_register" parent="NULL" relationship="NULL" sys_domain="global" view="64a84dd39349821074347af08bba103a">7d7e5fd49361021074347af08bba1076</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-10 04:52:19</sys_created_on>
+            <sys_id>f97e5fd49361021074347af08bba1077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-10 04:52:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.email</element>
+            <list_id display_value="x_1263211_pro_bono_timekeeper_register" element="NULL" name="x_1263211_pro_bono_timekeeper_register" parent="NULL" relationship="NULL" sys_domain="global" view="64a84dd39349821074347af08bba103a">7d7e5fd49361021074347af08bba1076</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-10 04:52:19</sys_created_on>
+            <sys_id>7d7e5fd49361021074347af08bba1077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-10 04:52:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user.employee_number</element>
+            <list_id display_value="x_1263211_pro_bono_timekeeper_register" element="NULL" name="x_1263211_pro_bono_timekeeper_register" parent="NULL" relationship="NULL" sys_domain="global" view="64a84dd39349821074347af08bba103a">7d7e5fd49361021074347af08bba1076</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-10 04:52:19</sys_created_on>
+            <sys_id>fd7e5fd49361021074347af08bba1077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-10 04:52:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1263211_pro_bono_timekeeper_register</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-10 04:52:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d7e5fd49361021074347af08bba1076</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1263211_pro_bono_timekeeper_register</sys_name>
+            <sys_package display_value="Pro Bono Opportunity" source="x_1263211_pro_bono">75e775f9930d021074347af08bba1054</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Pro Bono Opportunity">75e775f9930d021074347af08bba1054</sys_scope>
+            <sys_update_name>sys_ui_list_x_1263211_pro_bono_timekeeper_register_default_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-10 04:52:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default_view" name="default_view">64a84dd39349821074347af08bba103a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
